@@ -20,7 +20,7 @@
     "url": "https://github.com/DanielWLam/react-cli/issues"
   },
   "bin": {
-    "dwl-react-cli": "bin/dwl-react-cli"
+    "dwl-react-cli": "bin/dwl-react-cli.js"
   },
   "homepage": "https://github.com/DanielWLam/react-cli#readme",
   "dependencies": {
