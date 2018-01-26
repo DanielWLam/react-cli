@@ -1,6 +1,6 @@
 {
   "name": "dwl-react-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a quick react-cli for demo",
   "main": "index.js",
   "scripts": {
