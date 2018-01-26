@@ -1,0 +1,6 @@
+{
+  "plugin": [
+    "react",
+    "ent"
+  ]
+}
