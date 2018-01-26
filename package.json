@@ -1,5 +1,5 @@
 {
-  "name": "react-cli",
+  "name": "dwl-react-cli",
   "version": "1.0.0",
   "description": "a quick react-cli for demo",
   "main": "index.js",
@@ -18,6 +18,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/DanielWLam/react-cli/issues"
+  },
+  "bin": {
+    "lwd-react-cli": "./lib/cli.js"
   },
   "homepage": "https://github.com/DanielWLam/react-cli#readme",
   "dependencies": {
