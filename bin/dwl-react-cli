@@ -3,4 +3,7 @@
 require('commander')
   .version(require('../package').version)
   .command('init', 'init with dwl-react-cli in simple demo')
+  .action(() => {
+    console.log(process.pwd(), __dirname)
+  })
   .parse(process.argv)
