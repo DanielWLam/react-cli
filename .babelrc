@@ -1,6 +1,6 @@
 {
-  "plugin": [
+  "presets": [
     "react",
-    "ent"
+    "env"
   ]
 }
