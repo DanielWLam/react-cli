@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+require('commander')
+  .version(require('../package).version)
+  .command('init', 'init with dwl-react-cli in simple demo')
+  .parse(process.argv)
