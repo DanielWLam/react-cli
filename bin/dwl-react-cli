@@ -6,7 +6,7 @@ const program = require('commander')
 function resolve (dir) {
   return path.resolve(process.cwd(), dir)
 }
-
+console.log('dwl-react-cli, =============')
 program
   .version(require('../package').version)
   .command('init <dir>')

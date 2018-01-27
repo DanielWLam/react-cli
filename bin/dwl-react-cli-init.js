@@ -28,6 +28,7 @@ function clone (dir) {
 
 module.exports = function (dir) {
   // console.log(dir)
+  console.log('init++++++++++')
   try {
     clone(dir)
   } catch (e) {
