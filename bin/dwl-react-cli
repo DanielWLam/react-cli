@@ -3,18 +3,21 @@ const init = require('./dwl-react-cli-init.js')
 const path = require('path')
 const program = require('commander')
 
-function resolve (dir) {
+function resolve (dir = './') {
   return path.resolve(process.cwd(), dir)
 }
-console.log('dwl-react-cli, =============')
 program
   .version(require('../package').version)
-  .command('init <dir>')
+  .command('init [dir]')
   .description('init with dwl-react-cli in simple demo')
-  .action(function (dir) {
+  .action(function (dir = './') {
     init(resolve(dir))
   })
   program.parse(process.argv)
+
+  if (program.args < 1) {
+    return program.help()
+  }
 
 
   // .command('init <dir>', 'init with dwl-react-cli in simple demo')
