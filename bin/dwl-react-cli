@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const init = require('./dwl-react-cli-init')
+const init = require('./dwl-react-cli-init.js')
 const path = require('path')
 const program = require('commander')
 
